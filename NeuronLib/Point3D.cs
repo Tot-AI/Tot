@@ -21,5 +21,11 @@ namespace NeuronLib
             this.Y = Y;
             this.Z = Z;
         }
+        public Point3D(Point3D input)
+        {
+            X = input.X;
+            Y = input.Y;
+            Z = input.Z;
+        }
     }
 }
