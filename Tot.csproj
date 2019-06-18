@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NeuronLib\NeuronLib.csproj">
+      <Project>{496cdd14-b460-4348-9c37-2158b3644f35}</Project>
+      <Name>NeuronLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
