@@ -11,5 +11,9 @@ namespace NeuronLib
 {
     public class Neuron
     {
+        public Point3D Name { get; set; }
+        public string Path { get; set; }
+        public double Signal { get; set; }
+        public int Symbol { get; set; }
     }
 }
